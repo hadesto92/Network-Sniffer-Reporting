@@ -1,0 +1,13 @@
+{
+    "siec": "192.168.0.0/24",
+    "godzina_raportu": "18:41",
+    "interwal": 1,
+    "raport_dir": "raporty",
+    "nmap_path": "P:\\Program Files (x86)\\Nmap\\nmap.exe",
+    "recipient_email": "karolinfo1@wp.pl",
+    "sender_email": "hadesto92@gmail.com",
+    "sender_password": "ment wxrl ebzm nhrf",
+    "smtp_server": "smtp.wp.pl",
+    "smtp_port": "587",
+    "smtp_tls": true
+}

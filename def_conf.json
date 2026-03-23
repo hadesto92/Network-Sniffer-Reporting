@@ -1,0 +1,13 @@
+{
+  "siec": "127.0.0.1/24",
+  "interwal": 10,
+  "godzina_raportu": "06:00",
+  "raport_dir": "raporty",
+  "nmap_path": "C:\\Program Files (x86)\\Nmap\\nmap.exe",
+  "recipient_email": "",
+  "sender_email": "",
+  "sender_password": "",
+  "smtp_server": "",
+  "smtp_port": 587,
+  "smtp_tls": true
+}
