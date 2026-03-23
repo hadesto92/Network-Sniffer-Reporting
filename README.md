@@ -18,10 +18,14 @@ NSR składa się z trzech głównych warstw:
 
 2. Przepływ działania aplikacji
 
-Użytkownik (GUI / CLI) ↓ main.py ↓
-┌───────────────┬────────────────┬──────────────┐ │ │ │ │ Nmap
-Generowanie PDF SMTP Pliki JSON │ │ │ │ ↓ ↓ ↓ ↓ Wyniki → hosts.json →
-raport.pdf → wysyłka → archive.json
+Użytkownik (GUI / CLI) ↓ main.py 
+                ↓
+┌───────────────┬────────────────┬──────────────┐ 
+│               │                │              │ 
+Nmap        Generowanie PDF     SMTP         Pliki JSON 
+│               │                │              │ 
+↓               ↓                ↓              ↓ 
+Wyniki → hosts.json → raport.pdf → wysyłka → archive.json
 
 3. Moduły aplikacji
 
